@@ -1,36 +1,42 @@
 body{
-	color:blue;
-	background-color:black;
+	color: black;
+	background-color: green;
 }
 #wrapper{
-	width:750px;
-	margin:0 auto;
-	background-color:white;
+	width:850px;
+	margin:-20px auto;
+	background-color: red;
 }
 
 #header{
-	height:50px;
+	height:80px;
 	text-align:center;
 }
 
-#leftbody{
+#left{
 	float:left;
-	width:190px;
-	height: 500px;
-	background-color:#FFFFCC;
-	padding:5px;
+	width:230px;
+	height:70px;
+	background-color: pink;
 }
 
-#rightbody{
+#right{
 	float:right;
-	width:540px;
-	height:500px;
-	background:#FFFF99;
-	padding:5px;
+	width:620px;
+	height:70px;
+	background: orange;
+}
+
+#content{
+	width:850px;
+	height:650px;
+	background: blue;
 }
 
 #bottom{
-	text-align:center;
-	height:50px;
+	text-align:left;
+	height:80px;
+	background: yellow;
+	margin:-20px auto;
 	clear:both;
 }
