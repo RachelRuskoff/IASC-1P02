@@ -1,0 +1,126 @@
+body{
+	color:black;
+	font-family: "Arial";
+	background-color:black;
+}
+
+#wrapper{
+	width:1300px;
+	margin:0 auto;
+	background-color:white;
+}
+
+#header{
+	height:100px;
+	font-size: 30px;
+	background-color: yellow;
+	padding-top:2px;
+	padding-bottom: 25px;
+	text-align:center;
+}
+
+#logo{
+	position: absolute;
+	height: 100px;
+	width: 100px;
+	left: 40px;
+	top: 10px;
+}
+
+#Navigation{
+	float:left;
+	width:300px;
+	height: 550px;
+	background-color:pink;
+	padding:5px;
+	text-align: center;
+	}
+
+	#navText1{
+		float: left;
+		width: 250px;
+		height: 50px;
+		background-color: red;
+		position: absolute;
+		top: 250px;
+		left: 60px;
+}
+
+#navText2{
+	float: left;
+	width: 250px;
+	height: 50px;
+	background-color: red;
+	position: absolute;
+	top: 350px;
+	left: 60px;
+}
+
+#calendar{
+	float: left;
+	width: 250px;
+	height: 200px;
+	background-color: red;
+	position: absolute;
+	top: 450px;
+	left: 60px;
+}
+
+#Main{
+	float:right;
+	width:980px;
+	height:550px;
+	background:purple;
+	padding:5px;
+	text-align: center;
+}
+
+#scroll{
+	position: absolute;
+	height: 25px;
+	width: 365px;
+	background-color: red;
+	top: 625px;
+	left: 625px;
+}
+
+#hotel{
+	position: absolute;
+	top: 165px;
+	left: 500px;
+}
+
+#Icons{
+	text-align:center;
+	background-color: blue;
+	height:50px;
+	padding-top:25px;
+	clear:both;
+}
+
+#icon1{
+	position: absolute;
+	height: 25px;
+	width: 25px;
+	background-color: red;
+	top: 725px;
+	left: 100px;
+}
+
+#icon2{
+	position: absolute;
+	height: 25px;
+	width: 25px;
+	background-color: red;
+	top: 725px;
+	left: 150px;
+}
+
+#icon3{
+	position: absolute;
+	height: 25px;
+	width: 25px;
+	background-color: red;
+	top: 725px;
+	left: 200px;
+}
