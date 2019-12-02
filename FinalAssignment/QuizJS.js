@@ -1,6 +1,9 @@
+//Found on https://www.arclab.com/en/kb/htmlcss/display-date-time-javascript-php-ssi.html.
 var dt = new Date();
 document.getElementById("datetime").innerHTML = (("0"+dt.getDate()).slice(-2)) +"."+ (("0"+(dt.getMonth()+1)).slice(-2)) +"."+ (dt.getFullYear()) +" "+ (("0"+dt.getHours()).slice(-2)) +":"+ (("0"+dt.getMinutes()).slice(-2));
-//Found on https://www.arclab.com/en/kb/htmlcss/display-date-time-javascript-php-ssi.html.
+
+
+confirm("Test your knowledge from visiting the site!");
 
 //Found this quiz Javascript on https://www.sitepoint.com/simple-javascript-quiz/.
 (function() {
